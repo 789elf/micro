@@ -29,7 +29,7 @@ public class A00_Hello {
 	// Ctrl + F11
 	public static void main(String[] args) {
 		// 프로그램 시작
-		System.out.println("Hello, world 1");
+		System.out.println("Hello, world !");
 		System.out.println(12345);// 숫자
 		System.out.println("12345" + 5 * 7); //문자
 		/*
@@ -50,7 +50,7 @@ public class A00_Hello {
 		System.out.println('자');
 		
 		System.out.println(1000 + 500);	 	// int
-		System.out.println(123.456 + 10.5);	// float
+		System.out.println(123.456 + 10.5);	// double
 		
 		System.out.println(true);
 		System.out.println(false);

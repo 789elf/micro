@@ -24,5 +24,7 @@ public class A01_PrintQuiz {
 		System.out.println("----------------------------------------------");
 		System.out.println("ÃÑÇÕ°è\t\t\t\t\t£Ü100,000");
 		System.out.println("==============================================");
+		
+	
 	}
 }
