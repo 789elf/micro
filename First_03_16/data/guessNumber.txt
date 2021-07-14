@@ -1,0 +1,6 @@
+| 1위   	name:1	 cnt:1	sec:1 |
+| 2위  	name:11	 cnt:1	sec:1 |
+| 3위  	name:31	 cnt:1	sec:1 |
+| 4위  	name:19	 cnt:1	sec:2 |
+| 5위 	name:이준열	 cnt:1	sec:3 |
+| 6위   	name:8	 cnt:1	sec:33 |

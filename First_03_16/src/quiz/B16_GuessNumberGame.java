@@ -6,23 +6,6 @@ import java.util.Scanner;
 public class B16_GuessNumberGame {
 
 	public static void main(String[] args) {
-
-		/*
-		 * 	 °ÔÀÓÀÌ ½ÃÀÛµÇ¸é ·£´ıÀ¸·Î 4ÀÚ¸®ÀÇ ¼ıÀÚ°¡ ¼±Á¤µÈ´Ù
-		 * 
-		 *   1. ÇÃ·¹ÀÌ¾î´Â 8¹øÀÇ ½Ãµµ¸¦ ÇÒ ¼ö ÀÖ´Ù
-		 *   
-		 *   2. °¢ ½Ãµµ¸¶´Ù 4ÀÚ¸®ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¸é ´ÙÀ½°ú °°ÀÌ ¾Ë·ÁÁØ´Ù
-		 *   
-		 *   	¼ıÀÚ¿Í À§Ä¡°¡ ´Ù ¸ÂÀ» °æ¿ì - Strike
-		 *   	¼ıÀÚ¸¸ ¸ÂÀ»°æ¿ì - Ball
-		 *	
-		 *	ex: Á¤´äÀÌ 3456ÀÏ¶§
-		 *		>> 5634   	4 Ball
-		 *		>> 3789		1 Strike
-		 *
-		 *   ¸ÂÃß°í ³ª¸é ¸î ¹ø¸¸¿¡ ¸Â­Ÿ´ÂÁö ¾Ë·ÁÁÖ±â 
-		 */
 		
 		Random ran = new Random();
 		Scanner sc = new Scanner(System.in);

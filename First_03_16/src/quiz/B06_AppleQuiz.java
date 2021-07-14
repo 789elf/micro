@@ -28,5 +28,8 @@ public class B06_AppleQuiz {
 		}else if(input % 10 != 0){
 			System.out.println("총 필요한 바구니의 갯수는" + ((input / 10) + 1) +"개 입니다." );
 		}
+		
+		//	System.out.println(input % 10 == 0 ? input / 10 : (input / 10)+1);
+
 	}
 }

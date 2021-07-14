@@ -209,13 +209,6 @@ public class PokerGame_Ver01 {
 			}
 		}
 
-//		System.out.println(number_list);
-//		System.out.println(duplicate_num);
-//		System.out.println(shape_list);
-//		System.out.println("shape_dup : " + duplicate_shape);
-//		System.out.println("max_shape : " + max_shape);
-//		System.out.println("cnt : " + number_cnt);
-//		System.out.println("max : " + max);
 		if(number_cnt >= 1) {
 			if(number_cnt == 1) return 1; //one
 			if(max == 1 && number_cnt == 2) return 2; //twopair

@@ -23,11 +23,13 @@ public class C05_Inheritance {
 		
 		//부모 클래스에서 만든 기능을 사용할 수 있다.
 		Police police1 = new Police();
+		System.out.println("---");
 		police1.sayHi();
 		police1.walk();
 		police1.run();
 		
 		police1.thisSuperTest("둘리");
+		System.out.println("--");
 	}
 }
 
@@ -56,6 +58,7 @@ class Person{
 	}
 	
 	void walk() {
+		
 		System.out.println(speed);
 		System.out.printf("%s씨는 %d미터 걸었습니다.\n", name, speed / 2);
 	}

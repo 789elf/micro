@@ -17,9 +17,23 @@ public class B09_Operator3 {
 
 		boolean isEven = apple % 2 == 0;
 		
-		System.out.println("필요한 바구니 갯수는 " + needs + "개 입니다.");
+//		System.out.println("필요한 바구니 갯수는 " + needs + "개 입니다.");
 		
-		System.out.printf("사과의 갯수는 %s입니다.", isEven ? "짝수" : "홀수");
+//		System.out.printf("사과의 갯수는 %s입니다.", isEven ? "짝수" : "홀수");
+		
+		
+		int a = 10;
+		
+		if(a % 2 == 0) {
+			System.out.println("짝수");
+		}else {
+			System.out.println("홀수");
+		}
+		
+		System.out.println(a % 2 == 0 ? "짝수" : "홀수");
+		
+		System.out.println(1 == 1 ? "참" : "거짓");
+		System.out.println(1 == 2 ? "참" : "거짓"); 
 	}
 
 }
