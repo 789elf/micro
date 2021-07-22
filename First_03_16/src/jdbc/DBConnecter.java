@@ -11,9 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class DBConnecter {
-
 	public static Connection getConnection() {
-
 		String driver;
 		String url;
 		String id;
@@ -48,5 +46,4 @@ public class DBConnecter {
 			return null;
 		}
 	}
-
 }
